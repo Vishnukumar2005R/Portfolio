@@ -12,11 +12,7 @@ body {
     color: white;
     overflow-x: hidden;
 }
-
-
-/* =========================
-   BACKGROUND GLOW
-========================= */
+/* BACKGROUND GLOW*/
 
 body::before {
     content: "";
@@ -71,9 +67,7 @@ body::after {
 }
 
 
-/* =========================
-   NAVBAR
-========================= */
+/*NAVBAR */
 
 nav {
     position: fixed;
@@ -140,9 +134,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   HERO SECTION
-========================= */
+/* HERO SECTION*/
 
 .hero {
     min-height: 100vh;
@@ -192,9 +184,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   HERO ANIMATION
-========================= */
+/*HERO ANIMATION*/
 
 @keyframes slideLeft {
 
@@ -223,9 +213,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   HERO TEXT
-========================= */
+/*HERO TEXT*/
 
 .hero h1 {
     font-size: 65px;
@@ -252,9 +240,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   BUTTON
-========================= */
+/*BUTTON */
 
 .btn {
     display: inline-block;
@@ -283,9 +269,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   PROFILE IMAGE
-========================= */
+/*PROFILE IMAGE*/
 
 .profile {
     width: 360px;
@@ -334,9 +318,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   SECTIONS
-========================= */
+/* SECTIONS*/
 
 section {
     padding: 100px 8%;
@@ -353,9 +335,7 @@ section {
 }
 
 
-/* =========================
-   ABOUT
-========================= */
+/*ABOUT*/
 
 .about-box {
     max-width: 1100px;
@@ -382,9 +362,7 @@ section {
 }
 
 
-/* =========================
-   EDUCATION TIMELINE
-========================= */
+/*EDUCATION TIMELINE*/
 
 .timeline {
     max-width: 900px;
@@ -432,9 +410,7 @@ section {
 }
 
 
-/* =========================
-   SKILLS
-========================= */
+/*SKILLS*/
 
 .skill {
     max-width: 900px;
@@ -482,9 +458,7 @@ section {
 }
 
 
-/* =========================
-   CARDS
-========================= */
+/* CARDS*/
 
 .grid {
     width: 100%;
@@ -531,9 +505,7 @@ section {
 }
 
 
-/* =========================
-   CONTACT
-========================= */
+/*CONTACT*/
 
 .contact {
     text-align: center;
@@ -546,9 +518,7 @@ section {
 }
 
 
-/* =========================
-   CONTACT LINKS
-========================= */
+/* CONTACT LINKS */
 
 .contact p a {
     color: #00d4ff;
@@ -563,9 +533,7 @@ section {
 }
 
 
-/* =========================
-   GITHUB
-========================= */
+/*GITHUB*/
 
 .github {
     display: flex;
@@ -601,9 +569,7 @@ section {
 }
 
 
-/* =========================
-   LINKEDIN
-========================= */
+/* LINKEDIN */
 
 .linkedin {
     display: flex;
@@ -639,9 +605,7 @@ section {
 }
 
 
-/* =========================
-   FOOTER
-========================= */
+/*FOOTER*/
 
 footer {
     padding: 30px;
@@ -654,9 +618,7 @@ footer {
 }
 
 
-/* =========================
-   LAPTOP
-========================= */
+/* LAPTOP*/
 
 @media (max-width: 1100px) {
 
@@ -692,9 +654,7 @@ footer {
 }
 
 
-/* =========================
-   TABLET
-========================= */
+/* TABLET */
 
 @media (max-width: 900px) {
 
@@ -790,15 +750,11 @@ footer {
 }
 
 
-/* =========================
-   MOBILE
-========================= */
+/* MOBILE */
 
 @media (max-width: 600px) {
 
-    /* =========================
-       NAVBAR
-    ========================= */
+    /*NAVBAR*/
 
     nav {
         padding: 9px 3%;
@@ -843,9 +799,7 @@ footer {
     }
 
 
-    /* =========================
-       HERO
-    ========================= */
+    /*HERO*/
 
     .hero {
         min-height: auto;
@@ -887,9 +841,7 @@ footer {
     }
 
 
-    /* =========================
-       PROFILE
-    ========================= */
+    /*PROFILE*/
 
     .right {
         margin-top: 0;
@@ -918,9 +870,7 @@ footer {
     }
 
 
-    /* =========================
-       SECTIONS
-    ========================= */
+    /*SECTIONS*/
 
     section {
         padding: 65px 5%;
@@ -933,9 +883,7 @@ footer {
     }
 
 
-    /* =========================
-       ABOUT
-    ========================= */
+    /*ABOUT */
 
     .about-box {
         padding: 22px;
@@ -948,9 +896,7 @@ footer {
     }
 
 
-    /* =========================
-       EDUCATION
-    ========================= */
+    /* EDUCATION */
 
     .timeline {
         padding-left: 25px;
@@ -972,9 +918,7 @@ footer {
     }
 
 
-    /* =========================
-       SKILLS
-    ========================= */
+    /* SKILLS*/
 
     .skill {
         margin-bottom: 25px;
@@ -989,9 +933,7 @@ footer {
     }
 
 
-    /* =========================
-       CARDS
-    ========================= */
+    /*CARDS*/
 
     .grid {
         grid-template-columns: 1fr;
@@ -1014,9 +956,7 @@ footer {
     }
 
 
-    /* =========================
-       CONTACT
-    ========================= */
+    /*CONTACT*/
 
     .contact p {
         font-size: 13px;
@@ -1045,9 +985,7 @@ footer {
     }
 
 
-    /* =========================
-       BUTTONS
-    ========================= */
+    /*BUTTONS*/
 
     .btn {
         padding: 12px 26px;
@@ -1056,9 +994,7 @@ footer {
     }
 
 
-    /* =========================
-       FOOTER
-    ========================= */
+    /*FOOTER*/
 
     footer {
         font-size: 11px;
