@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,11 +14,14 @@
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet"
+    <link
+        rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
@@ -33,13 +37,31 @@
         <div class="logo">Portfolio</div>
 
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#contact">Contact</a></li>
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#certifications">Certifications</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
         </ul>
 
     </nav>
@@ -49,27 +71,34 @@
          HERO SECTION
     ========================== -->
 
-    <section class="hero">
+    <section id="home" class="hero">
 
         <div class="hero-content">
 
             <div class="left">
 
+                <p class="intro">Hello, I'm</p>
+
                 <h1>Vishnu Kumar R</h1>
 
                 <h2>Full Stack Web Developer</h2>
 
-                <p>
-                    Computer Technology student with knowledge of HTML, CSS,
-                    JavaScript, React.js, Java and SQL. Interested in building
-                    responsive web applications, learning new technologies and
-                    solving real-world problems through practical projects.
+                <p class="hero-description">
+                    Computer Technology student with knowledge of HTML,
+                    CSS, JavaScript, React.js, Java and SQL. Interested in
+                    building responsive web applications, learning new
+                    technologies and solving real-world problems through
+                    practical projects.
                 </p>
 
-                <a href="./my_resume/resume.pdf"
+                <a
+                    href="./my_resume/resume.pdf"
                     download="Vishnu_Kumar_R_Resume.pdf"
                     class="btn">
+
+                    <i class="fa-solid fa-download"></i>
                     Download Resume
+
                 </a>
 
             </div>
@@ -79,7 +108,8 @@
 
                 <div class="profile">
 
-                    <img src="./img/my_image.png"
+                    <img
+                        src="./img/my_image.png"
                         alt="Vishnu Kumar R Profile Picture"
                         class="profile_img">
 
@@ -103,6 +133,7 @@
         <div class="about-box">
 
             <p>
+
                 I am Vishnu Kumar R, a Computer Technology student interested
                 in Full Stack Web Development. I enjoy developing responsive
                 and user-friendly web applications using modern web
@@ -115,54 +146,8 @@
                 that helped me improve my programming, problem-solving and
                 development skills. I am continuously learning and looking
                 forward to applying my skills in a professional environment.
+
             </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         EDUCATION SECTION
-    ========================== -->
-
-    <section id="education">
-
-        <h2 class="title">Education</h2>
-
-        <div class="timeline">
-
-            <div class="item">
-
-                <h3>Bachelor of Computer Technology</h3>
-
-                <p>Sri Krishna Arts and Science College</p>
-
-                <p>2023 - 2026</p>
-
-            </div>
-
-
-            <div class="item">
-
-                <h3>Higher Secondary Education</h3>
-
-                <p>Keartiman Metric Hr. Sec. School</p>
-
-                <p>2021 - 2023</p>
-
-            </div>
-
-
-            <div class="item">
-
-                <h3>Secondary Education</h3>
-
-                <p>S.T. Gregories English Medium School</p>
-
-                <p>2020 - 2021</p>
-
-            </div>
 
         </div>
 
@@ -177,68 +162,167 @@
 
         <h2 class="title">Skills</h2>
 
+        <div class="skills-container">
 
-        <div class="skill">
+            <!-- HTML -->
 
-            <h4>HTML</h4>
+            <div class="skill">
 
-            <div class="bar">
-                <div class="fill" style="width: 90%;"></div>
+                <div class="skill-header">
+
+                    <h4>
+                        <i class="fa-brands fa-html5"></i>
+                        HTML
+                    </h4>
+
+                    <span>90%</span>
+
+                </div>
+
+                <div class="bar">
+
+                    <div
+                        class="fill"
+                        style="width: 90%;">
+                    </div>
+
+                </div>
+
             </div>
 
-        </div>
 
+            <!-- CSS -->
 
-        <div class="skill">
+            <div class="skill">
 
-            <h4>CSS</h4>
+                <div class="skill-header">
 
-            <div class="bar">
-                <div class="fill" style="width: 85%;"></div>
+                    <h4>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        CSS
+                    </h4>
+
+                    <span>85%</span>
+
+                </div>
+
+                <div class="bar">
+
+                    <div
+                        class="fill"
+                        style="width: 85%;">
+                    </div>
+
+                </div>
+
             </div>
 
-        </div>
 
+            <!-- JavaScript -->
 
-        <div class="skill">
+            <div class="skill">
 
-            <h4>JavaScript</h4>
+                <div class="skill-header">
 
-            <div class="bar">
-                <div class="fill" style="width: 75%;"></div>
+                    <h4>
+                        <i class="fa-brands fa-js"></i>
+                        JavaScript
+                    </h4>
+
+                    <span>75%</span>
+
+                </div>
+
+                <div class="bar">
+
+                    <div
+                        class="fill"
+                        style="width: 75%;">
+                    </div>
+
+                </div>
+
             </div>
 
-        </div>
 
+            <!-- React -->
 
-        <div class="skill">
+            <div class="skill">
 
-            <h4>React.js</h4>
+                <div class="skill-header">
 
-            <div class="bar">
-                <div class="fill" style="width: 70%;"></div>
+                    <h4>
+                        <i class="fa-brands fa-react"></i>
+                        React.js
+                    </h4>
+
+                    <span>70%</span>
+
+                </div>
+
+                <div class="bar">
+
+                    <div
+                        class="fill"
+                        style="width: 70%;">
+                    </div>
+
+                </div>
+
             </div>
 
-        </div>
 
+            <!-- SQL -->
 
-        <div class="skill">
+            <div class="skill">
 
-            <h4>SQL</h4>
+                <div class="skill-header">
 
-            <div class="bar">
-                <div class="fill" style="width: 70%;"></div>
+                    <h4>
+                        <i class="fa-solid fa-database"></i>
+                        SQL
+                    </h4>
+
+                    <span>70%</span>
+
+                </div>
+
+                <div class="bar">
+
+                    <div
+                        class="fill"
+                        style="width: 70%;">
+                    </div>
+
+                </div>
+
             </div>
 
-        </div>
 
+            <!-- Java -->
 
-        <div class="skill">
+            <div class="skill">
 
-            <h4>Java</h4>
+                <div class="skill-header">
 
-            <div class="bar">
-                <div class="fill" style="width: 65%;"></div>
+                    <h4>
+                        <i class="fa-brands fa-java"></i>
+                        Java
+                    </h4>
+
+                    <span>65%</span>
+
+                </div>
+
+                <div class="bar">
+
+                    <div
+                        class="fill"
+                        style="width: 65%;">
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
@@ -256,20 +340,16 @@
 
         <div class="grid">
 
-            <div class="card">
 
-                <h3>Portfolio Website</h3>
-
-                <p>
-                    Responsive personal portfolio website designed using
-                    HTML and CSS to showcase my education, skills, projects
-                    and professional profile.
-                </p>
-
-            </div>
-
+            <!-- Project 1 -->
 
             <div class="card">
+
+                <div class="card-icon">
+
+                    <i class="fa-solid fa-calculator"></i>
+
+                </div>
 
                 <h3>React Calculator</h3>
 
@@ -281,32 +361,15 @@
             </div>
 
 
-            <div class="card">
-
-                <h3>Student Course Registration</h3>
-
-                <p>
-                    A simple course registration form developed using HTML
-                    and CSS for collecting and displaying student details
-                    and course information.
-                </p>
-
-            </div>
-
+            <!-- Project 2 -->
 
             <div class="card">
 
-                <h3>Music Academy Website</h3>
+                <div class="card-icon">
 
-                <p>
-                    A responsive website designed to present music courses,
-                    academy information and other details in a clean layout.
-                </p>
+                    <i class="fa-solid fa-utensils"></i>
 
-            </div>
-
-
-            <div class="card">
+                </div>
 
                 <h3>Hotel Food Ordering System</h3>
 
@@ -319,7 +382,15 @@
             </div>
 
 
+            <!-- Project 3 -->
+
             <div class="card">
+
+                <div class="card-icon">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
 
                 <h3>E-Commerce Website</h3>
 
@@ -347,39 +418,84 @@
 
         <div class="grid">
 
+
+            <!-- Spoken Tutorial -->
+
             <div class="card">
+
+                <div class="card-icon">
+
+                    <i class="fa-solid fa-certificate"></i>
+
+                </div>
 
                 <h3>Spoken Tutorial Certifications</h3>
 
-                <p>
-                    Completed certifications in Java, RDBMS and SQL
-                    through Spoken Tutorial.
-                </p>
+                <ul>
+
+                    <li>Java</li>
+
+                    <li>RDBMS</li>
+
+                    <li>SQL</li>
+
+                </ul>
 
             </div>
 
 
+            <!-- Coursera -->
+
             <div class="card">
+
+                <div class="card-icon">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                </div>
 
                 <h3>Coursera Certifications</h3>
 
-                <p>
-                    Completed courses in Introduction to Data Science,
-                    Data Science Tools, Data Science Methodology and
-                    Database and SQL for Data Science with Python.
-                </p>
+                <ul>
+
+                    <li>Introduction to Data Science</li>
+
+                    <li>Data Science Tools</li>
+
+                    <li>Data Science Methodology</li>
+
+                    <li>
+                        Database and SQL for Data Science with Python
+                    </li>
+
+                </ul>
 
             </div>
 
 
+            <!-- NPTEL -->
+
             <div class="card">
+
+                <div class="card-icon">
+
+                    <i class="fa-solid fa-award"></i>
+
+                </div>
 
                 <h3>NPTEL Certifications</h3>
 
-                <p>
-                    Completed courses in Developing Skills and Personality
-                    and Foundation of Cloud, IoT, Edge and Machine Learning.
-                </p>
+                <ul>
+
+                    <li>
+                        Developing Soft Skills and Personality
+                    </li>
+
+                    <li>
+                        Foundation of Cloud, IoT, Edge and Machine Learning
+                    </li>
+
+                </ul>
 
             </div>
 
@@ -406,8 +522,10 @@
                 <h3>Get In Touch</h3>
 
                 <p class="contact-description">
+
                     Feel free to contact me for any opportunities,
                     projects or queries.
+
                 </p>
 
 
@@ -418,11 +536,15 @@
                     <i class="fa-solid fa-envelope"></i>
 
                     <div>
+
                         <h4>Email</h4>
 
                         <a href="mailto:vishnukumar.r005@gmail.com">
+
                             vishnukumar.r005@gmail.com
+
                         </a>
+
                     </div>
 
                 </div>
@@ -435,11 +557,15 @@
                     <i class="fa-solid fa-phone"></i>
 
                     <div>
+
                         <h4>Phone</h4>
 
                         <a href="tel:+919025841329">
+
                             +91 90258 41329
+
                         </a>
+
                     </div>
 
                 </div>
@@ -452,13 +578,18 @@
                     <i class="fa-solid fa-location-dot"></i>
 
                     <div>
+
                         <h4>Location</h4>
 
-                        <a href="https://www.google.com/maps/search/?api=1&query=Coimbatore,Tamil+Nadu,India"
+                        <a
+                            href="https://www.google.com/maps/search/?api=1&query=Coimbatore,Tamil+Nadu,India"
                             target="_blank"
                             rel="noopener noreferrer">
+
                             Coimbatore, Tamil Nadu
+
                         </a>
+
                     </div>
 
                 </div>
@@ -471,13 +602,18 @@
                     <i class="fa-brands fa-github"></i>
 
                     <div>
+
                         <h4>GitHub</h4>
 
-                        <a href="https://github.com/Vishnukumar2005R"
+                        <a
+                            href="https://github.com/Vishnukumar2005R"
                             target="_blank"
                             rel="noopener noreferrer">
+
                             github.com/Vishnukumar2005R
+
                         </a>
+
                     </div>
 
                 </div>
@@ -490,13 +626,18 @@
                     <i class="fa-brands fa-linkedin"></i>
 
                     <div>
+
                         <h4>LinkedIn</h4>
 
-                        <a href="https://www.linkedin.com/in/vishnu-kumar-r-504089433"
+                        <a
+                            href="https://www.linkedin.com/in/vishnu-kumar-r-504089433"
                             target="_blank"
                             rel="noopener noreferrer">
+
                             linkedin.com/in/vishnu-kumar-r-504089433
+
                         </a>
+
                     </div>
 
                 </div>
@@ -504,7 +645,7 @@
             </div>
 
 
-            <!-- RIGHT SIDE FORM -->
+            <!-- RIGHT CONTACT FORM -->
 
             <div class="contact-form">
 
@@ -516,25 +657,29 @@
                         type="text"
                         name="name"
                         placeholder="Your Name"
-                        required
-                    >
+                        autocomplete="name"
+                        required>
 
                     <input
                         type="email"
                         name="email"
                         placeholder="Your Email"
-                        required
-                    >
+                        autocomplete="email"
+                        required>
 
                     <textarea
                         name="message"
                         placeholder="Your Message"
                         rows="7"
-                        required
-                    ></textarea>
+                        required></textarea>
 
-                    <button type="submit" class="btn">
+                    <button
+                        type="submit"
+                        class="btn">
+
+                        <i class="fa-solid fa-paper-plane"></i>
                         Send Message
+
                     </button>
 
                 </form>
